@@ -34,12 +34,7 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
-  css: [
-  ],
+  loading: { color: '#FFBE00' },
   /*
   ** Plugins to load before mounting the App
   */
@@ -54,6 +49,21 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/style-resources'
+  ],
+  styleResources: {
+    sass: [
+    ],
+    scss: [
+      '@/assets/style/valiable.scss'
+    ]
+  },
+  /*
+  ** Global CSS
+  */
+  css: [
+    '@/assets/style/reset.css',
+    { src: '@/assets/style/common.scss', lang: 'scss' },
   ],
   /*
   ** Build configuration
