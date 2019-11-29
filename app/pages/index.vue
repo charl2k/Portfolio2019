@@ -72,16 +72,17 @@
         </article><!--id="About"-->
 
       </div><!--class="contents"-->
+
+      <footer>
+        <p>Copyright ©︎ 2019 Iitsuka Kodai All Rights Reserved.</p>
+      </footer>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
   components: {
-    Logo
   }
 }
 </script>
