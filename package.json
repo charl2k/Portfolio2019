@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "muuri": "^0.8.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "web-animations-js": "^2.3.2"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
